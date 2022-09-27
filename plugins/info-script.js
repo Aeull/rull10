@@ -11,7 +11,7 @@ conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externa
     mediaUrl: "https://Instagram.com/sahrulwara_____",
     title: 'Cari Aja Disitu',
     body: 'want source code?',
-    thumbnail: await(await fetch(img)).buffer(),,
+    thumbnail: await(await fetch(img)).buffer(),
     sourceUrl: sig
   }
   } }) 
