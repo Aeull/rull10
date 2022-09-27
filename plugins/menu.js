@@ -309,7 +309,7 @@ const listMessage = {
   sections
 }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: ftoko, mentions: await conn.parseMention(tek), { contextInfo: { externalAdReply :{ showAdAttribution: true, }}})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: ftoko, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
   	
  /**************************** TIME *********************/
