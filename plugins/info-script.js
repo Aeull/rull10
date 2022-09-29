@@ -6,8 +6,8 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let str = `*https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg*`
 let wibu = `https://hadi-api.herokuapp.com/api/loli` 
-let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+let thumb = await(await fetch('https://telegra.ph/file/6a5d4785c6acc30b86e40.jpg')).buffer()
+conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', fgif, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/sahrulwara_____",
     title: 'Cari Aja Disitu',
     body: 'want source code?',
