@@ -10,9 +10,8 @@ await conn.sendMessage(m.chat, {
             key: m.key,
           }})
 }
-handler.help = [''menu', 'help', '?']
-handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.customPrefix = /^(menu)$/i
+handler.command = new RegExp
 
 
 export default handler
