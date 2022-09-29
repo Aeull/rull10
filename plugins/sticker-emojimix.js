@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   if (anu.results[0] == undefined) throw 'Kombinasi Emojimix Tidak Ditemukan'
   let emix = anu.results[0].media_formats.png_transparent.url
   let stiker = await sticker(false, emix, global.packname, global.author)
-  conn.sendFile(m.chat, stiker, null, { asSticker: true }, m)
+  conn.sendFile(m.chat, stiker, null, { asSticker: true }, fgif)
 }
 
 handler.help = ['emojimix']
