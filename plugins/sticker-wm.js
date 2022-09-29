@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     console.error(e)
     if (Buffer.isBuffer(e)) stiker = e
   } finally {
-    if (stiker) conn.sendFile(m.chat, stiker, 'wm.webp', '', m, false, { asSticker: true })
+    if (stiker) conn.sendFile(m.chat, stiker, 'wm.webp', '', fgif, false, { asSticker: true })
     else throw 'Conversion failed'
   }
 }
