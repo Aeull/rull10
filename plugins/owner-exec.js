@@ -41,7 +41,7 @@ let handler = async (m, _2) => {
     mediaType: 2,
     title: 'ArullBotz',
     body: 'By Sahrull',
-    thumbnail: await(await fetch(img)).buffer(),
+    thumbnail: await(await fetch('https://telegra.ph/file/6a5d4785c6acc30b86e40.jpg')).buffer(),
     sourceUrl: "https://Instagram.com/sahrulwara_____",
      }}
   })
