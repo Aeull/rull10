@@ -10,7 +10,7 @@ await conn.sendMessage(m.chat, {
             key: m.key,
           }})
 }
-handler.customPrefix = /^(menu)$/i
+handler.customPrefix = /^(menu|.menu)$/i
 handler.command = new RegExp
 
 
