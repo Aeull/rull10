@@ -67,10 +67,10 @@ https://github.com/Alpiii22
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Jarotr_",
+    mediaUrl: "https://Instagram.com/sahrulwara_____",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Jarotr_", 
-    title: 'Oscar-MultiDevice',
+    description: "https://Instagram.com/sahrulwara_____", 
+    title: 'Follow Ig Owner Saya)',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
