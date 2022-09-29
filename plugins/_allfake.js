@@ -49,7 +49,7 @@ handler.all = async function (m) {
 					description: 'Oscar-MultiDevice',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(thumb)).buffer(),
-					sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",					
+					sourceUrl: "https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg",					
 				}
 			}
 		}
