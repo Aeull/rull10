@@ -33,18 +33,7 @@ let handler = async (m, _2) => {
     if (err) _syntax = '```' + err + '```\n\n'
     _return = e
   } finally {
-    conn.reply(m.chat, _syntax + format(_return), m,
-{ contextInfo: { 
-    externalAdReply :{
-    showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/sahrulwara_____",
-    mediaType: 2,
-    title: 'ArullBotz',
-    body: 'By Sahrull',
-    thumbnail: await(await fetch('https://telegra.ph/file/6a5d4785c6acc30b86e40.jpg')).buffer(),
-    sourceUrl: "https://Instagram.com/sahrulwara_____",
-     }}
-  })
+    conn.reply(m.chat, _syntax + format(_return), m)
     m.exp = old
   }
 }
