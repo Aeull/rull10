@@ -100,7 +100,7 @@ const listMessage = {
 'caption':cap,
 'footer':botdate,
 'buttons':[
-{'buttonId':'.menu2','buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':1},
+{'buttonId':'.m','buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':1},
 {'buttonId':'.donasi','buttonText':{'displayText':'ᴅᴏɴᴀsɪ'},'type':1}
 ],
 'headerType':6}
