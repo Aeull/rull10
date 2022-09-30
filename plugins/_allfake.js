@@ -84,7 +84,7 @@ handler.all = async function (m) {
             mediaUrl: "https://Instagram.com/sahrulwara_____",
             mediaType: "VIDEO",
             description: "https://Instagram.com/sahrulwara_____", 
-            title: 'ArullBotz By Sahrull',
+            title: 'Follow Ig Owner Saya Kak😚',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
