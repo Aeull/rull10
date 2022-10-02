@@ -11,7 +11,7 @@ let info = `*ArullBotz Disini(｡>_<｡)*`
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 
 
-conn.sendButtonDoc(m.chat, info, fgif, fakeig)
+conn.sendButtonDoc(m.chat, info, wm, fgif, fakeig)
 
 }
 
