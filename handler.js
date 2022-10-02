@@ -689,7 +689,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonImg(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, fakeig)
+    conn.sendButtonDoc(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, fakeig)
                     }
                 }
             }
