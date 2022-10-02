@@ -689,7 +689,15 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonImg(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, fakeig)
+    conn.sendButtonImg(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://instagram.com/sahrulwara_____",
+    mediaType: 2, 
+    title: action === 'add' ? 'Semoga Betah Yah Kak🤗' : 'Yah Kok Keluar Sih😩',
+    body: wm,
+    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
+    sourceUrl: "https://instagram.com/sahrulwara_____"
+     }}
+  })
                     }
                 }
             }
