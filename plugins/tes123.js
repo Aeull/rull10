@@ -12,6 +12,11 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
 
 
 conn.sendButtonDoc(m.chat, info, wm, 'Hallo Bot', '.menu', fgif, fakeig)
+await conn.sendMessage(m.chat, {
+      react: {
+       text: '👋',
+       key: m.key,
+       }})
 
 }
 
