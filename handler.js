@@ -691,9 +691,8 @@ export async function participantsUpdate({ id, participants, action }) {
                             })
     conn.sendButtonImg(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://instagram.com/sahrulwara_____",
-    mediaType: 2, 
+    mediaType: "PHOTO", 
     title: action === 'add' ? 'Semoga Betah Yah Kak🤗' : 'Yah Kok Keluar Sih😩',
-    body: wm,
     thumbnail: await(await fetch(pp)).buffer(),
     sourceUrl: "https://instagram.com/sahrulwara_____"
      }}
