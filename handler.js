@@ -689,15 +689,7 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://youtu.be/KzU_d0ctB3o",
-    mediaType: 2, 
-    title: action === 'add' ? 'Semoga Betah ツ' : 'Selamat Tinggal ツ',
-    body: wm,
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
-    sourceUrl: 'https://youtu.be/KzU_d0ctB3o',
-     }}
-  })
+    conn.sendButtonImg(id, pp, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ImOscar', fgif, fakeig)
                     }
                 }
             }
