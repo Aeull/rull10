@@ -693,7 +693,7 @@ export async function participantsUpdate({ id, participants, action }) {
     mediaUrl: "https://instagram.com/sahrulwara_____",
     mediaType: 2, 
     title: action === 'add' ? 'Semoga Betah Yah Kak🤗' : 'Yah Kok Keluar Sih😩',
-    thumbnail: await(await fetch(pp)).buffer(),
+    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: "https://instagram.com/sahrulwara_____"
      }}
   })
