@@ -8,7 +8,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
     conn.sendFile(m.chat, url, 'tiktok.mp4', `
 *📛Nickname:* ${nickname}
 *📒Description:* ${description}
-`.trim(), fgif, fakeig)
+`.trim(), fgif)
 }
 handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
 handler.tags = ['downloader']
